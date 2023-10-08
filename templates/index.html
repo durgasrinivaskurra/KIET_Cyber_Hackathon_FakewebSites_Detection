@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Checker</title>
+    <style>
+        body {
+            background-image: url('/static/image-what-is-phishing-hero.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* You can set a fallback background color here */
+            background-color: transparent;
+            margin: 0; /* Remove default margin */
+            font-family: 'Arial', sans-serif; /* Set a default font family */
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #link-form {
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #result {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1  style="color:red;">Link Checker</h1>
+    <form id="link-form">
+        <input type="text" id="link" placeholder="Enter a URL">
+        <button type="submit">Check</button>
+    </form>
+    <div id="result"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
