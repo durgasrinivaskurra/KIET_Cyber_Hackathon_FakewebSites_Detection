@@ -2,3 +2,4 @@
 This project was about detecting the fake web sites.
 
 # Contributors
+KURRA DURGA SRINIVAS
